@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/howToPlay" >
+
+	<ImageView
+		android:layout_width="fill_parent"
+   	 android:layout_height="fill_parent"
+   	 android:background="@color/white"
+   	 android:layout_margin = "10dp"
+	/>
+	<ScrollView
+		android:layout_width="fill_parent"
+   	 android:layout_height="wrap_content"
+   	 android:layout_margin = "10dp"
+   	 >
+   	 <TextView
+			android:id="@+id/howToPlayText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin = "10dp"
+			android:textSize = "20sp"
+   	 	android:text="@string/howToPlayText"
+   	 	android:textColor="@color/black"
+   	 />
+	</ScrollView>
+	
+</FrameLayout>

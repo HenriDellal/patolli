@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patolli</string>
+    
+	<!-- Main screen -->
+	
+    <string name="onePlayer">One player</string>
+    <string name="twoPlayers">Two players</string>
+    <string name="playOnline">Play online</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Restart dialog -->
+    
+    <string name="playerWon"> won.</string>
+    <string name="draw">Draw.</string>
+    <string name="restartText">Do you want to restart?</string>
+    
+    <!-- Game screen -->
+    
+    <string name="firstPlayer">Player 1</string>
+    <string name="secondPlayer">Player 2</string>
+    
+    <!-- Settings screen -->
+    
+    <string name="editNamesCategory">Edit names</string>
+    <string name="playerOneName">First player</string>
+    <string name="playerTwoName">Second player</string>
+    <string name="themesCategory">Themes</string>
+    <string name="classicTheme">Classic</string>
+    <string name="blueTheme">Blue</string>
+    <string name="greenTheme">Green</string>
+    <string name="backToMenu">Back to menu</string>
+    <string name="finishGame">Do you want to finish the game?</string>   
+    <string name="howToPlayText">Patolli is a board game which can be played by 2 players. The original game was created by Indians and has slightly different rules. The goal is to move four markers through the field faster than opponent. Players throw dice which has numbers from 1 to 4 and then choose one of the available moves.
+\nRemember that:
+\nIt\'s impossible to set your markers on the ends of lines.
+\nIt\'s possible to destroy opponent\'s markers in the center of game field. The markers are being moved to the start then.
+</string>
+	<string name="howToPlay">How to play</string>
+</resources>

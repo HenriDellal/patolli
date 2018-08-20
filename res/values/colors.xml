@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Classic Theme-->
+
+	<color name="yellow">#ffeb3b</color>
+	<color name="white">#ffffff</color>
+	<color name="smoke">#c0ffffff</color>
+	<color name="red">#f44336</color>
+	<color name="green">#37D10C</color>
+	<color name="turquoise">#00BBD7</color>
+	<color name="black">#000000</color>
+	
+	<array name = "classicTheme">
+		<!-- Primary color -->
+		<item>@color/yellow</item>
+		<!-- Secondary color -->
+		<item>@color/white</item>
+		<!-- Additional color -->
+		<item>@color/red</item>
+		<!-- First player color -->
+		<item>@color/green</item>
+		<!-- Second player color -->
+		<item>@color/turquoise</item>
+		<!-- Text color -->
+		<item>@color/black</item>
+	</array>
+	
+	<array name = "blueTheme">
+		<!-- Primary color -->
+		<item>#04BDEC</item>
+		<!-- Secondary color -->
+		<item>@color/white</item>
+		<!-- Additional color -->
+		<item>#7986CB</item>
+		<!-- First player color -->
+		<item>@color/green</item>
+		<!-- Second player color -->
+		<item>#FF406E</item>
+		<!-- Text color -->
+		<item>@color/black</item>
+	</array>
+	
+	<array name = "greenTheme">
+		<!-- Primary color -->
+		<item>#33AF3A</item>
+		<!-- Secondary color -->
+		<item>@color/white</item>
+		<!-- Additional color -->
+		<item>#63FAFC</item>
+		<!-- First player color -->
+		<item>@color/green</item>
+		<!-- Second player color -->
+		<item>#FF406E</item>
+		<!-- Text color -->
+		<item>@color/black</item>
+	</array>
+</resources>

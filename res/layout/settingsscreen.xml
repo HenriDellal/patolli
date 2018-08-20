@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/settingsScreen"
+	>
+	<LinearLayout
+		android:layout_width="fill_parent"
+   	 android:layout_height="fill_parent"
+   	 android:layout_margin = "15dp"
+   	 android:orientation="vertical"
+   	 >
+   	 <TextView
+			android:id="@+id/editNamesTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize = "20sp"
+   	 	android:text="@string/editNamesCategory"
+   	 	android:textColor="@color/black"
+   	 />
+   	 <LinearLayout
+			android:layout_width="fill_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:orientation="horizontal"
+   	 	>
+   	 	<Button
+				android:id="@+id/renameFirstPlayer"
+				style="@style/button.menu"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:text="@string/playerOneName"
+				android:layout_weight="1"
+			/>
+			<Button
+				android:id="@+id/renameSecondPlayer"
+				style="@style/button.menu"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:text="@string/playerTwoName"
+				android:layout_weight="1"
+			/>
+		</LinearLayout>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize = "20sp"
+			android:layout_marginTop = "10dp"
+   	 	android:text="@string/themesCategory"
+   	 	android:textColor="@color/black"
+   	 />
+		<Button
+			android:id="@+id/theme1"
+			style="@style/button.menu"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/classicTheme"
+		/>
+		<Button
+			android:id="@+id/theme2"
+			style="@style/button.menu"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/blueTheme"
+		/>
+		<Button
+			android:id="@+id/theme3"
+			style="@style/button.menu"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/greenTheme"
+		/>
+	</LinearLayout>
+	
+</FrameLayout>

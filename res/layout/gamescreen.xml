@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+	<ru.henridellal.patolli.BackgroundView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/backView"/>
+	
+	<ru.henridellal.patolli.CoveringView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/coverView"/>
+	
+	<RelativeLayout
+		android:layout_width="wrap_content"
+   	 android:layout_height="wrap_content"
+   	 >
+	
+		<RelativeLayout
+			android:layout_alignParentBottom = "true"
+			android:layout_centerHorizontal = "true"
+   	 	android:layout_width="wrap_content"
+  	 	 android:layout_height="wrap_content"
+  	 	 android:id="@+id/buttonLayout"
+			android:padding="5dp"
+   		 >
+   		 <Button
+				android:id="@+id/button_1"
+				style="@style/button"
+				android:layout_marginLeft="0dp"
+				android:text="1"
+			/>
+   		 <Button
+				android:id="@+id/button_2"
+				style="@style/button"
+				android:text="2"
+				android:layout_toRightOf = "@id/button_1"
+			/>
+   		 <Button
+				android:id="@+id/button_3"
+				style="@style/button"
+				android:text="3"
+				android:layout_toRightOf = "@id/button_2"
+			/>
+   		 <Button
+				android:id="@+id/button_4"
+				style="@style/button"
+				android:text="4"
+				android:layout_toRightOf = "@id/button_3"
+			/>
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_above = "@id/buttonLayout"
+   	 	android:layout_width="wrap_content"
+  	 	 android:layout_height="wrap_content"
+  	 	 android:id="@+id/playerTextLayout"
+  	 	 android:layout_margin="5dp"
+   		 >
+			
+   		 <TextView
+				android:id="@+id/text2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/secondPlayer"
+				android:textSize="16dp"
+				android:textColor="@color/black"
+			/>
+			<TextView
+				android:id="@+id/text1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight = "true"
+				android:text="@string/firstPlayer"
+				android:textSize="16dp"
+				android:textColor="@color/black"
+			/>
+			
+		</RelativeLayout>
+	</RelativeLayout>
+	
+</FrameLayout>

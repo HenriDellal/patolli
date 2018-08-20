@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Патолли</string>
+    
+	<!-- Main screen -->
+	
+	<string name="onePlayer">Один игрок</string>
+    <string name="twoPlayers">Два игрока</string>
+    <string name="playOnline">Сетевая игра</string>
+    <string name="settings">Настройки</string>
+    <string name="howToPlay">Об игре</string>
+    
+    <!-- Restart dialog -->
+    
+    <string name="playerWon"> выиграл.</string>
+    <string name="draw">Ничья.</string>
+    <string name="restartText">Начать заново?</string>
+    
+    <!-- Game screen -->
+    
+    <string name="firstPlayer">Игрок 1</string>
+    <string name="secondPlayer">Игрок 2</string>
+    
+    <!-- Settings screen -->
+    
+    <string name="editNamesCategory">Изменить имена игроков</string>
+    <string name="playerOneName">Первый игрок</string>
+    <string name="playerTwoName">Второй игрок</string>
+    <string name="themesCategory">Темы</string>
+    <string name="classicTheme">Классическая</string>
+    <string name="blueTheme">Голубая</string>
+    <string name="greenTheme">Зелëная</string>
+    <string name="backToMenu">Вернуться в меню</string>
+    <string name="howToPlayText">Патолли - это настольная игра для двух человек. Оригинальная игра, созданная индейцами, имеет немного другие правила. Цель игрока: провести четыре фишки через игровое поле к финишу быстрее соперника. Игроки бросают кость с числами от 1 до 4 и затем выбирают один из доступных ходов.
+\nПомните, что:
+\nСтавить фишки на концах линий поля воспрещается.
+\nВозможно устранение фишек соперника в центре игрового поля. В этом случае фишки возвращаются на стартовую позицию.
+</string>
+</resources>

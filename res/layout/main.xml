@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/mainView" >
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+   	 android:layout_height="fill_parent"
+   	 android:id="@+id/menuLayout"
+   	 android:layout_margin="15dp"
+   	 >
+   	 <Button
+			android:id="@+id/onePlayerButton"
+			style="@style/button.menu"
+			android:text="@string/onePlayer"
+   	 	android:layout_centerInParent="true"
+		/>
+		<Button
+			android:id="@+id/twoPlayersButton"
+			style="@style/button.menu"
+			android:text="@string/twoPlayers"
+			android:layout_below="@id/onePlayerButton"
+   	 	android:layout_alignLeft="@id/onePlayerButton"
+		/>
+		<Button
+			android:id="@+id/settingsButton"
+			style="@style/button.menu"
+			android:text="@string/settings"
+			android:layout_below="@id/twoPlayersButton"
+   	 	android:layout_alignLeft="@id/twoPlayersButton"
+		/>
+		<Button
+			android:id="@+id/howToPlayButton"
+			style="@style/button.menu"
+			android:text="@string/howToPlay"
+			android:layout_below="@id/settingsButton"
+   	 	android:layout_alignLeft="@id/settingsButton"
+		/>
+	</RelativeLayout>
+	
+</FrameLayout>
