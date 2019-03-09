@@ -14,7 +14,7 @@ public class Player{
 	public ArrayList<Point> getPointset() {
 		return pointset;
 	}
-	public Player(Game game, char symbol, boolean type, String name){
+	public Player(Game game, char symbol, boolean type){
 		this.game = game;
 		this.symbol = symbol; //shows player's char
 		this.moves = new ArrayList<Map<String, Integer>>();

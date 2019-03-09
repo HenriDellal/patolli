@@ -84,11 +84,11 @@ public class Point{
 		//find fi with these coord && return it to start
 		int j, k;
 		if (owner == '@'){
-			j = 1;
-			k = 0;
-		} else{
 			j = 0;
 			k = 1;
+		} else{
+			j = 1;
+			k = 0;
 		}
 		this.x = x;
 		this.y = y;

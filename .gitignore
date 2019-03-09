@@ -7,3 +7,7 @@
 proguard.cfg
 project.properties
 .classpath
+*.jks
+*.apk
+R.java
+build-release.sh
